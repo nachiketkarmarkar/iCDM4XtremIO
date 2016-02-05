@@ -2,6 +2,33 @@
 iCDM4XtremIO is a repository that stores sample scripts/modules that demostrate automation for iCDM use-case
 
 ## Description
+
+### Problem statement
+Critical business processes require multiple copies of each database and application’s
+data for purposes such as development, analytics, operations and data protection. To
+improve organizational agility and competitiveness, more is better—more copies,
+more frequently, with more operational self-service across the process cycles.
+Organizations have relied on brute force copies with storage tiering, flawed snapshots,
+and dedicated copy management tools, for managing the creation and maintenance of
+copies. IDC and Gartner call this product category “Copy Data Management”, or CDM.
+
+### Drawbacks of traditional "Copy Data Management"
+All current CDM approaches struggle fundamentally with storage sprawl,
+performance/scalability and SLA issues, limitations on copy frequency and complex
+operational processes. Today’s Limited CDM methodologies result in expensive, slow and complex copy
+management operations, which do not meet the needs of business. Therefore,
+application/DBA teams are faced with the following challenges:
+ - Bloated copies
+ - Insufficient copies
+ - Handicapped copies
+ - Painful copy creation & management
+ - Stale copies
+ - Compromised business process workflows
+
+### integrated Copy Data Management [iCDM]
+XtremIO pioneered the concept of integrated copy data management (iCDM) –
+the ability to consolidate both primary data and its associated copies on the same scale-out all-flash array for unprecedented agility and efficiency. With its bullet-proof, consistent IOPS and latency, linear scale-out all-flash performance and the ability to add more performance and capacity as needed with no application downtime, XtremIO delivers incredible potential to finally consolidate production AND non-production applications, without impacting the production SLAs.
+
 iCDM4XtremIO is a repository that contains samples written in Powershell that 
 - Demonstrates how we can leverage iCDM capabilities of XtremIO in re-purposing databases
 - How we can automate workflows combining different PowerCLI modules and leveraging their capabilities
